@@ -1,0 +1,17 @@
+.sect{
+    height: 84vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('../../../assets/img/SHEN1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.ff{
+    color: beige;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    padding-right: 600px;
+    padding-left: 40px;
+}

@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.header{
+    background-color: rgb(255, 145, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+    padding: 6px 10%;
+}
+.logo{
+    display: flex;
+}
+.img1{
+    margin-left: 12px;
+    height: 60px;
+    width: 60px;
+    transition: all 0.3s;
+}
+.header .logo .img1:hover{
+    transform: scale(1.2);
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 16px;
+  }
+.bebas-neue-regular:hover{
+    color: rgb(255, 255, 255);
+}
+.vol{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 19px;
+}
+.nav-links{
+    display: inline-block;
+    padding: 0 20px;
+    list-style: none;
+}
+.none{
+    text-decoration: none;
+    color: black;
+    transform: scale(1.1);
+}
+.nav-links{
+    display: inline-block;
+    padding: 0 20px;
+    list-style: none;
+}
+.none:hover{
+    color: #fff;
+    font-size: 23px;
+}
+.header .btn button{
+    font-weight: 700;
+    color: #000000;
+    padding: 9px 25px;
+    background-color: rgb(255, 251, 3);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+.header .btn button:hover{
+    color: rgb(231, 123, 0);
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
